@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <h1>Hai Tuan Putri✨</h1>
+        <img src="https://i.pinimg.com/originals/ce/26/d5/ce26d56f2d1a98f1737cf988388a4dcc.gif">
+        <h1>Udah kangen yah?</h1>
+        <button id='btn_mau' onclick='alert("Sini dang mo sayang 💖")'>Iyaa</button>&nbsp;
+        <button id='btn_gamau' onclick='gamau(this)' style='position:absolute'>b aja</button>
+    </body>
+    <script>
+        function gamau(id){
+            var mau = document.getElementById('btn_mau');
+            var i = Math.floor(Math.random()*300)+1;
+            var j = Math.floor(Math.random()*100)+mau.offsetTop;
+            id.style.left = i+'px';
+            id.style.top = j+'px';
+        }
+    </script>
+</html>
