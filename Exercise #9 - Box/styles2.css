@@ -1,0 +1,21 @@
+img {
+    display: block;
+    background-color: lightblue; 
+    padding: 20px;
+    border: 10px solid red;
+    margin: 20px;
+}
+img {
+    display: block;
+    background-color: lightblue; 
+    padding: 20px;
+    border: 10px solid red;
+    margin: 0px;
+}
+img {
+    display: block;
+    background-color: lightblue; 
+    padding: 20px;
+    border: 10px solid red;
+    margin: 0px;
+}
